@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="letter">
+            <h1>Katherin, mi vida linda!</h1>
+            <p>En este día tan especial, quiero expresar lo agradecido que estoy con Dios, el universo y la vida por tenerte como mi esposa. Eres una mujer muy especial para mí y para todos los que tienen la dicha de conocerte y quererte.</p>
+            <p>Me llena de alegría poder estar a tu lado para celebrar tu día. Espero que estas vacaciones sean inolvidables para ti, que disfrutes del mar, las ballenas y, sobre todo, de mi compañía.</p>
+            <p>Quisiera compartir contigo una pequeña poesía de amor:</p>
+            <p>Tus ojos son estrellas,<br>
+            tu sonrisa, mi sol,<br>
+            en tu abrazo encuentro calma,<br>
+            en tu amor, mi razón.</p>
+            <p>Gracias por ser quien eres, por iluminar mi vida y hacer cada día especial. Te amo con todo mi corazón.</p>
+            <p>Con amor,<br>
+            tu esposo, Carlos <span class="heart">&#x2665;&#xfe0f;</span></p>
+        </div>
+        <button onclick="showPopup()" class="birthday-button">¡Abreme!</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <h2 class="birthday-message">¡Feliz vuelta al Sol!</h2>
+                <img src="images/birthday-cake.webp" alt="an image of a birthday cake">
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/foto1.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/foto2.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/foto3.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/foto4.jpeg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
